@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Station | About</title>
+
+    <!-- Bootstrap 5 CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- Google Font Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Internal stylying: font + warm color palette -->
+    <style>
+        body { font-family: 'Poppins', sans-serif; }
+        :root {
+            --warm: #E07A5F;
+            --mint: #81B29A;
+            --cream: #F4F1DE;
+            --charcoal: #3D405B;
+            --yellow: #F2CC8F;
+        }
+        .bg-primary { background-color: var(--warm) !important; }
+        .bg-secondary { background-color: var(--mint) !important; }
+        .bg-dark { background-color: var(--charcoal) !important; }
+        .bg-light { background-color: var(--cream) !important; }
+        .text-primary { color: var(--warm) !important; }
+        .text-secondary { color: var(--mint) !important; }
+        .text-dark { color: var(--charcoal) !important; }
+        .btn-primary { background-color: var(--warm); border-color: var(--warm); }
+        .btn-primary:hover { background-color: #c96b4f; border-color: #c96b4f; }
+        .btn-outline-primary { color: var(--warm); border-color: var(--warm); }
+        .btn-outline-primary:hover { background-color: var(--warm); color: #fff; }
+        .btn-dark { background-color: var(--charcoal); border-color: var(--charcoal); }
+        .btn-outline-secondary { color: var(--charcoal); border-color: var(--charcoal); }
+        .btn-outline-secondary:hover { background-color: var(--charcoal); color: #fff; }
+        .btn-outline-light:hover { background-color: var(--cream); color: var(--charcoal); }
+        .border-primary { border-color: var(--warm) !important; }
+        .card.hover-card { transition: transform 0.3s ease, box-shadow 0.3s ease; }
+        .card.hover-card:hover { transform: translateY(-5px); box-shadow: 0 10px 25px rgba(0,0,0,0.15); }
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3">
+    <div class="container">
+        <a class="navbar-brand fw-bold d-flex align-items-center" href="index.html">
+            <img src="images/Arrive Rest Be Held - The Station.png" alt="The Station Logo" height="90" class="me-2">
+            THE STATION
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navmenu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a href="index.html" class="nav-link active">Home</a></li>
+                <li class="nav-item"><a href="about.html" class="nav-link">About Us</a></li>
+                <li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<section class="bg-primary text-light p-5 text-center">
+    <div class="container">
+        <h1 class="display-4 fw-bold" style="color: var(--cream);">Our Anchor</h1>
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <figure class="mt-4">
+                    <blockquote class="blockquote">
+                        <p class="fst-italic">"We have this hope as an anchor for the soul, firm and secure."</p>
+                    </blockquote>
+                    <figcaption class="blockquote-footer text-white-50 mt-2">
+                        Hebrews 6:19 (NIV) — The inspiration behind The Station
+                    </figcaption>
+                </figure>
+                <p class="lead mt-4">
+                    The Station was born from a simple observation: the internet is loud, fast, and often leaves us more exhausted than refreshed. We wanted to build a different kind of space. A digital sanctuary where you can arrive exactly as you are, tired, hopeful, curious, or just needing a minute to breathe.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="p-5" style="background-color: var(--cream);">
+    <div class="container">
+        <div class="row align-items-center g-5">
+            <div class="col-md-6">
+                <h2 class="border-bottom pb-2">Our Mission</h2>
+                <p class="lead">To create content that slows the scroll and steadies the soul. We believe that stories have the power to anchor us, and that everyone deserves a place to rest.</p>
+                <p>Through weekly blog posts, monthly vlogs, and thoughtful community conversations, we aim to be a gentle presence in your digital life.</p>
+                <img src="images/Arrive Rest Be Held - The Station.png" class="img-fluid rounded shadow mt-3" alt="The Station's quiet creative workspace">
+            </div>
+            <div class="col-md-6">
+                <h2 class="border-bottom pb-2">Our Vision</h2>
+                <p class="lead">To see a global community of "travelers" who support one another in the ordinary, beautiful, and sometimes messy journey of life and faith.</p>
+                <p>We dream of The Station becoming a trusted stop on your weekly routine — a place you return to not out of obligation, but because it feels like home.</p>
+                <!-- Responsive video embed -->
+                <div class="ratio ratio-16x9 mt-3 shadow">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/1VpIOkSd_Zs" title="Welcome to The Station" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <p class="text-muted small mt-2">A short welcome from our founder.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="p-5 bg-light">
+    <div class="container">
+        <h2 class="text-center mb-5 fw-bold">Meet The Station Crew</h2>
+        <div class="row g-4">
+            <!-- Member 1: Hilda Grace Nalwanga -->
+            <div class="col-md-4">
+                <div class="card border-0 shadow-sm h-100 text-center hover-card">
+                    <div class="card-body">
+                        <img src="images/Hilda Grace Nalwanga Profile Picture.jpg" class="rounded-circle w-50 mb-3 border border-3 border-primary" alt="Hilda Grace Nalwanga">
+                        <h5 class="card-title">Hilda Grace Nalwanga</h5>
+                        <p class="text-secondary">Founder & Chief Storyteller</p>
+                        <p>Hilda believes that every good conversation starts with a deep breath and a warm cup of tea. She writes from her flat in Kampala, surrounded by too many books and a very needy cat.</p>
+                        <a href="#" class="text-dark me-2" target="_blank"><i class="bi bi-twitter-x"></i></a>
+                        <a href="#" class="text-dark" target="_blank"><i class="bi bi-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Member 2: Annah Mirembe -->
+            <div class="col-md-4">
+                <div class="card border-0 shadow-sm h-100 text-center hover-card">
+                    <div class="card-body">
+                        <img src="images/Annah Mirembe.jpg" class="rounded-circle w-50 mb-3 border border-3 border-primary" alt="Annah Mirembe">
+                        <h5 class="card-title">Annah Mirembe</h5>
+                        <p class="text-secondary">Creative Director & Vlog Lead</p>
+                        <p>Annah is the eye behind the lens. She finds beauty in the overlooked details — steam rising from coffee, light through a window, the rhythm of the city waking up.</p>
+                        <a href="#" class="text-dark me-2" target="_blank"><i class="bi bi-youtube"></i></a>
+                        <a href="#" class="text-dark" target="_blank"><i class="bi bi-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Member 3: Maureen Kafureeka Tumukunde -->
+            <div class="col-md-4">
+                <div class="card border-0 shadow-sm h-100 text-center hover-card">
+                    <div class="card-body">
+                        <img src="images/Maureen Kafureeka Tumukunde.jpg" class="rounded-circle w-50 mb-3 border border-3 border-primary" alt="Maureen Kafureeka Tumukunde">
+                        <h5 class="card-title">Maureen Kafureeka Tumukunde</h5>
+                        <p class="text-secondary">Community Host & Editor</p>
+                        <p>Maureen makes sure every comment gets a reply and every newsletter feels like a letter from a friend. She's the heart of The Station's community.</p>
+                        <a href="https://ug.linkedin.com/in/maureen-kafureeka-9524a932" class="text-dark" target="_blank"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<footer class="p-4 bg-dark text-white text-center">
+    <div class="container">
+        <p class="lead mb-2" style="color: var(--yellow);">Arrive. Rest. Be Held.</p>
+        <div class="mb-3">
+            <!-- Replace # with your real social links -->
+            <a href="#" class="text-white mx-3" target="_blank"><i class="bi bi-youtube"></i></a>
+            <a href="#" class="text-white mx-3" target="_blank"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="text-white mx-3" target="_blank"><i class="bi bi-twitter-x"></i></a>
+            <a href="#" class="text-white mx-3" target="_blank"><i class="bi bi-envelope-paper"></i></a>
+        </div>
+        <p class="small mt-3"> 2026 The Station. All rights reserved.</p>
+    </div>
+</footer>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
