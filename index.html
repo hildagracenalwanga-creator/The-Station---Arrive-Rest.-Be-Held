@@ -1,147 +1,279 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Station | Home</title>
 
     <!-- Bootstrap 5 CSS CDN -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
     <!-- Bootstrap Icons CDN -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
     <!-- Google Font Poppins -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- Internal style: font + warm color palette -->
     <style>
-        body { font-family: 'Poppins', sans-serif; }
-        :root {
-            --warm: #E07A5F;
-            --mint: #81B29A;
-            --cream: #F4F1DE;
-            --charcoal: #3D405B;
-            --yellow: #F2CC8F;
-        }
-        .bg-primary { background-color: var(--warm) !important; }
-        .bg-secondary { background-color: var(--mint) !important; }
-        .bg-dark { background-color: var(--charcoal) !important; }
-        .bg-light { background-color: var(--cream) !important; }
-        .text-primary { color: var(--warm) !important; }
-        .text-secondary { color: var(--mint) !important; }
-        .text-dark { color: var(--charcoal) !important; }
-        .btn-primary { background-color: var(--warm); border-color: var(--warm); }
-        .btn-primary:hover { background-color: #c96b4f; border-color: #c96b4f; }
-        .btn-outline-primary { color: var(--warm); border-color: var(--warm); }
-        .btn-outline-primary:hover { background-color: var(--warm); color: #fff; }
-        .btn-dark { background-color: var(--charcoal); border-color: var(--charcoal); }
-        .btn-outline-secondary { color: var(--charcoal); border-color: var(--charcoal); }
-        .btn-outline-secondary:hover { background-color: var(--charcoal); color: #fff; }
-        .btn-outline-light:hover { background-color: var(--cream); color: var(--charcoal); }
-        .border-primary { border-color: var(--warm) !important; }
-        .card.hover-card { transition: transform 0.3s ease, box-shadow 0.3s ease; }
-        .card.hover-card:hover { transform: translateY(-5px); box-shadow: 0 10px 25px rgba(0,0,0,0.15); }
+      body {
+        font-family: "Poppins", sans-serif;
+      }
+      :root {
+        --warm: #e07a5f;
+        --mint: #81b29a;
+        --cream: #f4f1de;
+        --charcoal: #3d405b;
+        --yellow: #f2cc8f;
+      }
+      .bg-primary {
+        background-color: var(--warm) !important;
+      }
+      .bg-secondary {
+        background-color: var(--mint) !important;
+      }
+      .bg-dark {
+        background-color: var(--charcoal) !important;
+      }
+      .bg-light {
+        background-color: var(--cream) !important;
+      }
+      .text-primary {
+        color: var(--warm) !important;
+      }
+      .text-secondary {
+        color: var(--mint) !important;
+      }
+      .text-dark {
+        color: var(--charcoal) !important;
+      }
+      .btn-primary {
+        background-color: var(--warm);
+        border-color: var(--warm);
+      }
+      .btn-primary:hover {
+        background-color: #c96b4f;
+        border-color: #c96b4f;
+      }
+      .btn-outline-primary {
+        color: var(--warm);
+        border-color: var(--warm);
+      }
+      .btn-outline-primary:hover {
+        background-color: var(--warm);
+        color: #fff;
+      }
+      .btn-dark {
+        background-color: var(--charcoal);
+        border-color: var(--charcoal);
+      }
+      .btn-outline-secondary {
+        color: var(--charcoal);
+        border-color: var(--charcoal);
+      }
+      .btn-outline-secondary:hover {
+        background-color: var(--charcoal);
+        color: #fff;
+      }
+      .btn-outline-light:hover {
+        background-color: var(--cream);
+        color: var(--charcoal);
+      }
+      .border-primary {
+        border-color: var(--warm) !important;
+      }
+      .card.hover-card {
+        transition:
+          transform 0.3s ease,
+          box-shadow 0.3s ease;
+      }
+      .card.hover-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+      }
     </style>
-</head>
-<body>
-
-   <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3">
-    <div class="container">
-        <a class="navbar-brand fw-bold d-flex align-items-center" href="index.html">
-            <img src="images/Arrive Rest Be Held - The Station.png" alt="The Station Logo" height="90" class="me-2">
-            THE STATION
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3">
+      <div class="container">
+        <a
+          class="navbar-brand fw-bold d-flex align-items-center"
+          href="index.html"
+        >
+          <img
+            src="images/Arrive Rest Be Held - The Station.png"
+            alt="The Station Logo"
+            height="250"
+            class="me-2"
+          />
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
-            <span class="navbar-toggler-icon"></span>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navmenu">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a href="index.html" class="nav-link active">Home</a></li>
-                <li class="nav-item"><a href="about.html" class="nav-link">About Us</a></li>
-                <li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
-                <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
-            </ul>
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link active">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="about.html" class="nav-link">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a href="services.html" class="nav-link">Services</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link">Contact</a>
+            </li>
+          </ul>
         </div>
-    </div>
-</nav>
+      </div>
+    </nav>
 
-   <section class="bg-light text-dark p-5 p-lg-0 pt-lg-5 text-center text-sm-start">
-    <div class="container">
+    <section
+      class="bg-light text-dark p-5 p-lg-0 pt-lg-5 text-center text-sm-start"
+    >
+      <div class="container">
         <div class="d-sm-flex align-items-center justify-content-between">
-            <div>
-                <h1 class="display-4 fw-bold" style="color: var(--charcoal);">The Station</h1>
-                <p class="lead fst-italic mb-4" style="color: var(--warm);">Arrive. Rest. Be Held.</p>
-                <p class="my-4">
-                    A quiet corner of the internet for the weary traveler. Honest stories, gentle reflections, and visual journals that remind you: you don't have to have it all figured out to belong here.
-                </p>
-                <a href="services.html" class="btn btn-dark btn-lg px-4">Start Reading</a>
-                <a href="about.html" class="btn btn-outline-secondary btn-lg px-4 ms-2">Our Story</a>
-            </div>
-            <img class="img-fluid w-50 d-none d-sm-block rounded-4 shadow-lg" src="images/hero-station.jpg" alt="A quiet moment with a journal and coffee at The Station">
+          <div>
+            <p class="my-4">
+              A quiet corner of the internet for the weary traveler. Honest
+              stories, gentle reflections, and visual journals that remind you:
+              you don't have to have it all figured out to belong here.
+            </p>
+            <a href="services.html" class="btn btn-dark btn-lg px-4"
+              >Start Reading</a
+            >
+            <a
+              href="about.html"
+              class="btn btn-outline-secondary btn-lg px-4 ms-2"
+              >Our Story</a
+            >
+          </div>
+          <img
+            class="img-fluid w-50 d-none d-sm-block rounded-4 shadow-lg"
+            src="images/hero-station.jpg"
+            alt="A quiet moment with a journal and coffee at The Station"
+          />
         </div>
-    </div>
-</section>
+      </div>
+    </section>
 
-<section class="p-5">
-    <div class="container">
-        <h2 class="text-center mb-5 fw-bold" style="color: var(--charcoal);">Latest From The Platform</h2>
+    <section class="p-5">
+      <div class="container">
+        <h2 class="text-center mb-5 fw-bold" style="color: var(--charcoal)">
+          Latest From The Platform
+        </h2>
         <div class="row g-4">
-            <!-- Card 1 -->
-            <div class="col-md-4">
-                <div class="card bg-dark text-light shadow-sm h-100 hover-card">
-                    <img src="images/morning-devotion.jpg" class="card-img-top" alt="Morning devotion journal">
-                    <div class="card-body d-flex flex-column">
-                        <div class="mb-3"><i class="bi bi-pencil-square h3"></i></div>
-                        <h4 class="card-title">The Anchor Holds</h4>
-                        <p class="card-text flex-grow-1">What do you do when the ground beneath you shifts? A personal reflection on finding steadiness in the middle of uncertainty.</p>
-                        <a href="#" class="btn btn-outline-light mt-3 align-self-start">Read Post <i class="bi bi-arrow-right"></i></a>
-                    </div>
-                </div>
+          <!-- Card 1 -->
+          <div class="col-md-4">
+            <div class="card bg-dark text-light shadow-sm h-100 hover-card">
+              <img
+                src="images/morning-devotion.jpg"
+                class="card-img-top"
+                alt="Morning devotion journal"
+              />
+              <div class="card-body d-flex flex-column">
+                <div class="mb-3"><i class="bi bi-pencil-square h3"></i></div>
+                <h4 class="card-title">The Anchor Holds</h4>
+                <p class="card-text flex-grow-1">
+                  What do you do when the ground beneath you shifts? A personal
+                  reflection on finding steadiness in the middle of uncertainty.
+                </p>
+                <a href="#" class="btn btn-outline-light mt-3 align-self-start"
+                  >Read Post <i class="bi bi-arrow-right"></i
+                ></a>
+              </div>
             </div>
+          </div>
 
-            <!-- Card 2 -->
-            <div class="col-md-4">
-                <div class="card bg-secondary text-light shadow-sm h-100 hover-card">
-                    <img src="images/vlog-arriving.jpg" class="card-img-top" alt="Vlog episode thumbnail">
-                    <div class="card-body d-flex flex-column">
-                        <div class="mb-3"><i class="bi bi-camera-reels h3"></i></div>
-                        <h4 class="card-title">Vlog: Arriving Well</h4>
-                        <p class="card-text flex-grow-1">Join me for a slow Saturday morning in Kampala. We visit a hidden cafe, talk about the art of resting, and why it's so hard to just stop.</p>
-                        <a href="#" class="btn btn-outline-light mt-3 align-self-start">Watch Now <i class="bi bi-play-circle"></i></a>
-                    </div>
-                </div>
+          <!-- Card 2 -->
+          <div class="col-md-4">
+            <div
+              class="card bg-secondary text-light shadow-sm h-100 hover-card"
+            >
+              <img
+                src="images/vlog-arriving.jpg"
+                class="card-img-top"
+                alt="Vlog episode thumbnail"
+              />
+              <div class="card-body d-flex flex-column">
+                <div class="mb-3"><i class="bi bi-camera-reels h3"></i></div>
+                <h4 class="card-title">Vlog: Arriving Well</h4>
+                <p class="card-text flex-grow-1">
+                  Join me for a slow Saturday morning in Kampala. We visit a
+                  hidden cafe, talk about the art of resting, and why it's so
+                  hard to just stop.
+                </p>
+                <a href="#" class="btn btn-outline-light mt-3 align-self-start"
+                  >Watch Now <i class="bi bi-play-circle"></i
+                ></a>
+              </div>
             </div>
+          </div>
 
-            <!-- Card 3 -->
-            <div class="col-md-4">
-                <div class="card bg-dark text-light shadow-sm h-100 hover-card">
-                    <img src="images/community-lounge.JPG" class="card-img-top" alt="Community conversation lounge">
-                    <div class="card-body d-flex flex-column">
-                        <div class="mb-3"><i class="bi bi-chat-heart h3"></i></div>
-                        <h4 class="card-title">Conversation Lounge</h4>
-                        <p class="card-text flex-grow-1">This month's discussion: What does it look like to "be held" by a community in a digital age? Share your thoughts and hear from others.</p>
-                        <a href="#" class="btn btn-outline-light mt-3 align-self-start">Join the Chat <i class="bi bi-send"></i></a>
-                    </div>
-                </div>
+          <!-- Card 3 -->
+          <div class="col-md-4">
+            <div class="card bg-dark text-light shadow-sm h-100 hover-card">
+              <img
+                src="images/community-lounge.JPG"
+                class="card-img-top"
+                alt="Community conversation lounge"
+              />
+              <div class="card-body d-flex flex-column">
+                <div class="mb-3"><i class="bi bi-chat-heart h3"></i></div>
+                <h4 class="card-title">Conversation Lounge</h4>
+                <p class="card-text flex-grow-1">
+                  This month's discussion: What does it look like to "be held"
+                  by a community in a digital age? Share your thoughts and hear
+                  from others.
+                </p>
+                <a href="#" class="btn btn-outline-light mt-3 align-self-start"
+                  >Join the Chat <i class="bi bi-send"></i
+                ></a>
+              </div>
             </div>
+          </div>
         </div>
-    </div>
-</section>
+      </div>
+    </section>
 
-  <footer class="p-4 bg-dark text-white text-center">
-    <div class="container">
-        <p class="lead mb-2" style="color: var(--yellow);">Arrive. Rest. Be Held.</p>
+    <footer class="p-4 bg-dark text-white text-center">
+      <div class="container">
+        <p class="lead mb-2" style="color: var(--yellow)">
+          Arrive. Rest. Be Held.
+        </p>
         <div class="mb-3">
-            <!-- Replace # with your real social links -->
-            <a href="#" class="text-white mx-3" target="_blank"><i class="bi bi-youtube"></i></a>
-            <a href="#" class="text-white mx-3" target="_blank"><i class="bi bi-instagram"></i></a>
-            <a href="#" class="text-white mx-3" target="_blank"><i class="bi bi-twitter-x"></i></a>
-            <a href="#" class="text-white mx-3" target="_blank"><i class="bi bi-envelope-paper"></i></a>
+          <!-- Replace # with your real social links -->
+          <a href="#" class="text-white mx-3" target="_blank"
+            ><i class="bi bi-youtube"></i
+          ></a>
+          <a href="#" class="text-white mx-3" target="_blank"
+            ><i class="bi bi-instagram"></i
+          ></a>
+          <a href="#" class="text-white mx-3" target="_blank"
+            ><i class="bi bi-twitter-x"></i
+          ></a>
+          <a href="#" class="text-white mx-3" target="_blank"
+            ><i class="bi bi-envelope-paper"></i
+          ></a>
         </div>
         <p class="small mt-3">&copy; 2026 The Station. All rights reserved.</p>
-    </div>
-</footer>
+      </div>
+    </footer>
 
     <!-- Bootstrap JS Bundle -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
-</body>
+  </body>
 </html>
